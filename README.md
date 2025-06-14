@@ -28,6 +28,7 @@ Users can perform the following operations:
 
 ## 📁 Project Structure
 
+```text
 src/
 ├── main/
 │ ├── java/com/luv2code/springboot/thymeleafdemo/
@@ -58,6 +59,7 @@ Using **Maven**:
 ```bash
 ./mvnw spring-boot:run
 
+---
 
 ## 📌 REST Endpoints
 
