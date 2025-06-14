@@ -21,8 +21,8 @@ Users can perform the following operations:
 - **Backend**: Spring Boot
 - **Frontend**: Thymeleaf
 - **Templating Engine**: Thymeleaf
-- **Build Tool**: Maven or Gradle
-- **Database**: H2 (In-memory) or other supported DBMS
+- **Build Tool**: Maven 
+- **Database**: MYSQL Database
 
 ---
 
@@ -40,9 +40,7 @@ src/
 │ ├── templates/ # Thymeleaf HTML templates
 │ ├── static/ # Static assets like CSS/JS/images (if needed)
 │ └── application.properties
-
-
-
+```
 ---
 
 ## 🚀 Getting Started
@@ -58,7 +56,7 @@ Using **Maven**:
 
 ```bash
 ./mvnw spring-boot:run
-
+```
 ---
 
 ## 📌 REST Endpoints
